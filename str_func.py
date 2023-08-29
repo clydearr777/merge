@@ -5,8 +5,3 @@
 def title(stroka):
     new_stroka = stroka.title()
     return new_stroka
-
-
-x = str(input())
-y = title(x)
-print(y)
