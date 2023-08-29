@@ -2,9 +2,14 @@
 docstring
 """
 
-def title(stroka):
+def title_all(stroka):
     """
     Функция, принимающая на вход строку и возвращающая её со всеми заглавными буквами
     """
-    new_stroka = stroka.title()
-    return new_stroka
+    return stroka.upper()
+
+def title(stroka):
+    """
+    Функция, принимающая на вход строку и возвращающая её с заглавно буквы каждое слово
+    """
+    return stroka.title()
